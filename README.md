@@ -1,5 +1,9 @@
+
+# Project Title
 MuchoHacker.lol — Framework de Clasificación de Alertas Digitales
 Versión 1.0 · Documento público · Uso libre bajo licencia MIT
+
+
 1. Introducción
 
 Este documento define un marco de clasificación simple y estandarizado para evaluar alertas digitales dirigidas al público general. El propósito es facilitar la identificación del nivel de riesgo que representa una alerta digital, especialmente para personas sin conocimientos técnicos, y apoyar a medios de comunicación en la evaluación responsable de incidentes digitales.
