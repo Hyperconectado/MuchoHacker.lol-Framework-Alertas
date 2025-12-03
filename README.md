@@ -1,158 +1,171 @@
-MuchoHacker.lol – Framework de Clasificación de Alertas Digitales (Alto, Medio, Bajo)
+🕵️‍♂️ MuchoHacker.lol — Framework de Clasificación de Alertas Digitales
+Versión 1.0 — Evaluación simple y clara para personas sin conocimiento técnico
 
-Framework público desarrollado por MuchoHacker.lol para clasificar alertas digitales y amenazas cibernéticas en tres niveles simples: Alto, Medio y Bajo.
+🧭 ¿Qué es este Framework?
 
-Está diseñado para personas sin conocimientos técnicos, para evaluación manual, y apoyado opcionalmente con herramientas de IA. Se inspira en estándares como NIST, ENISA, MITRE ATT&CK, CVSS y buenas prácticas de la industria.
+El Framework de Clasificación de Alertas Digitales de MuchoHacker.lol es una herramienta pública diseñada para ayudar a personas sin conocimientos técnicos a entender rápidamente el nivel de riesgo de alertas digitales, estafas, filtraciones o intentos de engaño.
 
-1. Objetivo
+Está inspirado en buenas prácticas internacionales (NIST, ENISA, CISA) pero traducido a un lenguaje simple, directo y útil para cualquier ciudadano.
 
-Proveer una herramienta clara y accesible para evaluar riesgos asociados a:
+📚 Tabla de Contenidos
 
-Phishing
+Objetivo
 
-Smishing
+Cómo se usa
 
-Estafas digitales
+Niveles de alerta
 
-Malware
+Criterios de evaluación
 
-Fugas de datos
+Flujo de decisión
 
-Suplantación
+Ejemplos prácticos
 
-Incidentes de seguridad en general
+Referencias
 
-La filosofía del marco:
-👉 Una amenaza es ALTA si existe riesgo real de pérdida económica o daño grave.
+Contribuciones
 
-2. Criterios de evaluación
+Licencia
 
-La severidad de una alerta se clasifica considerando cinco factores:
+🎯 Objetivo
 
-2.1. Impacto económico (criterio principal)
+Crear un sistema simple y estandarizado para clasificar alertas digitales en:
 
-¿Existe posibilidad real de perder dinero?
+🔴 Alto
 
-¿Puede generar fraude, pagos no autorizados, extorsión o robo?
+🟡 Medio
 
-Si la respuesta es SÍ → Riesgo ALTO.
+🟢 Bajo
 
-2.2. Impacto operativo
+Este framework permite una evaluación manual, apoyada por IA, en medios de comunicación, periodistas, equipos de atención ciudadana o cualquier persona que quiera entender riesgos en Internet.
 
-Mide si afecta sistemas, servicios o procesos críticos.
+🧩 Cómo se usa
 
-Paralización o daño grave → ALTO
+Evalúa la alerta (mensaje, correo, enlace, publicación, filtración).
 
-Interrupciones moderadas → MEDIO
+Revisa los criterios del framework.
 
-Sin impacto visible → BAJO
+Marca cada criterio como Sí o No.
 
-2.3. Sensibilidad de los datos involucrados
+Suma el nivel final siguiendo la tabla de decisión.
 
-Datos financieros, contraseñas, datos personales sensibles → ALTO
+La IA puede ayudarte a:
 
-Información interna no sensible → MEDIO
+Identificar señales sospechosas.
 
-Información pública → BAJO
+Resumir información.
 
-2.4. Alcance (cuántos están afectados)
+Detectar patrones de phising, smishing o fraude.
 
-Muchas personas o sistemas críticos → ALTO
+Pero la decisión final siempre es humana.
 
-Grupos pequeños → MEDIO
+🚦 Niveles de Alerta
+🔴 Alerta ALTA (Riesgo Inmediato)
 
-Un único usuario → BAJO
+Color: Rojo
+Significa: La persona puede perder dinero, datos críticos o acceso a cuentas.
+Reacción recomendada: No interactuar, bloquear, denunciar.
 
-2.5. Evidencia del ataque
+Criterios típicos
 
-Ataque confirmado o artefacto malicioso detectado → ALTO
+Riesgo económico real.
 
-Señal sospechosa creíble → MEDIO
+Robo de cuentas bancarias o WhatsApp.
 
-Evento probablemente benigno → BAJO
+Solicitud urgente de dinero.
 
-3. Definiciones de los niveles
-✔️ ALTO
+Filtración de datos personales sensibles.
 
-Involucra pérdida económica, daño operativo severo o fuga de datos sensibles.
-Requiere acción inmediata.
+Enlaces que simulan bancos o entidades oficiales.
 
-✔️ MEDIO
+Mensajes con urgencia o amenazas.
 
-Riesgo moderado, creíble pero sin impacto grave inmediato.
-Requiere revisión y seguimiento.
+🟡 Alerta MEDIA (Precaución)
 
-✔️ BAJO
+Color: Amarillo
+Significa: Podría convertirse en una estafa o engaño si la persona no tiene cuidado.
+Reacción recomendada: Verificar, preguntar, confirmar antes de actuar.
 
-Impacto mínimo o incierto.
-Requiere monitoreo básico.
+Criterios típicos
 
-4. Ejemplos prácticos
-Escenario	Clasificación	Motivo
-SMS que dice “su cuenta será bloqueada, ingrese aquí”	ALTO	Riesgo de fraude directo
-Email genérico de premio falso	MEDIO	Menor probabilidad de pérdida real
-Spam masivo	BAJO	Sin impacto económico
-Ransomware en equipo corporativo	ALTO	Paraliza operaciones
-Fuga de datos internos no sensibles	MEDIO	Impacto limitado
-Intentos de login desde país desconocido	MEDIO	Sospecha moderada
-5. Pasos para aplicar el framework
+Solicitudes sospechosas sin urgencia extrema.
 
-Identificar el incidente.
+Enlaces desconocidos pero no bancarios.
 
-Evaluar el impacto económico (criterio clave).
+Mensajes que piden datos “no críticos”.
 
-Revisar los demás factores:
+Contactos no verificados que solicitan información.
 
-Datos
+Patrones incompletos de fraude.
 
-Alcance
+🟢 Alerta BAJA (Monitoreo / Riesgo Mínimo)
 
-Operación
+Color: Verde
+Significa: El impacto es bajo o nulo. No hay señales fuertes de estafa.
+Reacción recomendada: Observar, borrar o ignorar.
 
-Evidencia
+Criterios típicos
 
-Asignar Alto / Medio / Bajo.
+Mensajes sin solicitud de acción.
 
-Registrar la razón en una frase.
+Actividad sospechosa pero sin impacto directo.
 
-6. Fuentes oficiales (públicas y verificables)
-NIST
+Errores sin consecuencias (e.g., correo publicitario dudoso).
 
-Guía de manejo de incidentes (SP 800-61 Rev.2):
-https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final
+Informaciones no verificadas que no incluyen enlaces maliciosos.
 
-Framework de ciberseguridad:
-https://www.nist.gov/cyberframework
+🛠️ Criterios de Evaluación (Framework)
 
-ENISA
+El evaluador debe revisar estos 6 criterios. Cada uno suma peso para el nivel final.
 
-https://www.enisa.europa.eu
+Criterio	Peso	Pregunta
+1. Riesgo Económico	Alto	¿La persona puede perder dinero directamente?
+2. Robo de Identidad / Cuentas	Alto	¿Pueden robar una cuenta (WhatsApp, correo, redes)?
+3. Verosimilitud Técnica	Medio	¿El mensaje replica técnicas comunes de phising/smishing?
+4. Urgencia / Presión Psicológica	Medio	¿Exige actuar rápido o crea miedo?
+5. Solicitud de Datos / Acciones	Bajo	¿Solicita información o un clic?
+6. Impacto Colectivo	Bajo	¿Puede afectar a múltiples personas (fraudes masivos)?
+🧮 Flujo de Decisión
 
-MITRE ATT&CK
+Si 1 o más criterios de ALTO están presentes → 🔴 ALTA
 
-https://attack.mitre.org/
+Si NO hay criterios ALTO, pero 2 criterios MEDIOS → 🟡 MEDIA
 
-CVSS – FIRST
+Si solo hay criterios BAJOS → 🟢 BAJA
 
-https://www.first.org/cvss/
+Si no aplica ninguno → No es una alerta
 
-Microsoft Defender – Severidad de alertas
+🧰 Ejemplos Prácticos
+📌 Caso 1: “Tu banco bloqueó tu cuenta. Valida aquí.”
 
-https://learn.microsoft.com/en-us/defender/
+→ Enlace sospechoso + urgencia + riesgo económico
+Resultado: 🔴 ALTA
 
-INCIBE – guías para usuarios
+📌 Caso 2: “Hemos visto un intento de acceso. ¿Fuiste tú?”
 
-https://www.incibe.es/
+→ Sospechoso, pero sin solicitud de dinero
+Resultado: 🟡 MEDIA
 
-7. Licencia
+📌 Caso 3: “Promoción sospechosa pero sin pedir datos.”
 
-Este framework se distribuye bajo la MIT License.
+→ Riesgo bajo, no solicita acciones críticas
+Resultado: 🟢 BAJA
 
-8. Autor
+📚 Referencias
 
-MuchoHacker.lol
-Marco abierto para fortalecer la educación digital en usuarios no técnicos.
+NIST Cybersecurity Framework
 
-✨ Gracias por usar y mejorar este framework
+ENISA Threat Landscape
 
-Pull requests y mejoras son bienvenidas.
+CISA Phishing Guidance
+
+OWASP Phishing Initiative
+
+Centros de Respuesta a Incidentes (CERT/CSIRT) internacionales
+
+Investigaciones de fraude digital en Latinoamérica
+
+🤝 Contribuciones
+
+Pull Requests, issues y mejoras son bienvenidas.
+MuchoHacker.lol es una comunidad orientada a ayudar a personas sin conocimiento técnico a moverse seguras en Internet.
