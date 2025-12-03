@@ -2,8 +2,7 @@
 # MuchoHacker.lol — Framework de Clasificación de Alertas Digitales
 Versión 1.0 · Documento público · Uso libre bajo licencia MIT
 
-
-1. Introducción
+## 1. Introducción
 
 Este documento define un marco de clasificación simple y estandarizado para evaluar alertas digitales dirigidas al público general. El propósito es facilitar la identificación del nivel de riesgo que representa una alerta digital, especialmente para personas sin conocimientos técnicos, y apoyar a medios de comunicación en la evaluación responsable de incidentes digitales.
 
@@ -17,7 +16,7 @@ Bajo
 
 La evaluación puede ser realizada manualmente y asistida por herramientas de inteligencia artificial.
 
-2. Alcance
+##2. Alcance
 
 El framework aplica a:
 
@@ -35,11 +34,11 @@ Comunicaciones que generen duda o confusión sobre su autenticidad.
 
 No es un framework técnico para análisis forense, sino un instrumento de evaluación ciudadana con fundamento en buenas prácticas internacionales.
 
-3. Objetivo General
+##3. Objetivo General
 
 Establecer un sistema coherente, verificable y sencillo para determinar la gravedad de alertas digitales que pueden afectar a usuarios finales.
 
-4. Niveles de Clasificación
+##4. Niveles de Clasificación
 4.1. Nivel Alto
 
 Definición:
@@ -94,7 +93,7 @@ Señales débiles sin impacto potencial inmediato.
 Acción recomendada:
 Monitorear o ignorar.
 
-5. Criterios del Framework
+##5. Criterios del Framework
 
 Cada alerta se evalúa en función de seis criterios:
 
@@ -105,7 +104,8 @@ Plausibilidad técnica	¿Emplea técnicas conocidas de fraude digital?	Medio
 Urgencia / presión	¿Exige una acción rápida o genera miedo?	Medio
 Solicitud de datos	¿Pide información o interacción?	Bajo
 Impacto colectivo	¿Puede afectar a varias personas o grupos?	Bajo
-6. Regla de Decisión
+
+##6. Regla de Decisión
 
 Si la alerta cumple al menos un criterio de nivel alto, se clasifica como:
 → Nivel Alto
@@ -116,7 +116,7 @@ Si no cumple criterios altos, pero cumple dos o más criterios de nivel medio, s
 Si solo cumple criterios de nivel bajo, se clasifica como:
 → Nivel Bajo
 
-7. Ejemplos de Aplicación
+##7. Ejemplos de Aplicación
 Ejemplo A
 
 "Hemos bloqueado temporalmente su cuenta bancaria. Valide su identidad aquí."
@@ -134,7 +134,7 @@ Ejemplo C
 Correo dudoso sin enlaces y sin solicitud de datos.
 Clasificación: Nivel Bajo.
 
-8. Referencias Metodológicas
+##8. Referencias Metodológicas
 
 El framework se inspira en lineamientos de organizaciones especializadas, incluyendo:
 
@@ -150,11 +150,11 @@ CERT/CSIRT de referencia internacional
 
 Investigaciones documentadas sobre fraude digital en Latinoamérica
 
-9. Contribuciones
+##9. Contribuciones
 
 Las sugerencias y mejoras son bienvenidas.
 Este es un proyecto abierto mantenido por MuchoHacker.lol para fortalecer la alfabetización digital en la región.
 
-10. Licencia
+##10. Licencia
 
 Este marco se publica bajo la Licencia MIT.
