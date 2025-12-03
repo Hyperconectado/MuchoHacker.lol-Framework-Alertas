@@ -8,25 +8,25 @@ Este documento define un marco de clasificación simple y estandarizado para eva
 
 El framework clasifica cada alerta en uno de tres niveles:
 
-*Alto
+* Alto
 
-*Medio
+* Medio
 
-*Bajo
+* Bajo
 
 La evaluación puede ser realizada manualmente y/o asistida por herramientas de inteligencia artificial.
 
 ##2. Alcance
 
-*El framework aplica a: Intentos de fraude digital (phishing, smishing, vishing).
+* El framework aplica a: Intentos de fraude digital (phishing, smishing, vishing).
 
-*Filtraciones de datos.Mensajes engañosos o suplantación de identidad.
+* Filtraciones de datos.Mensajes engañosos o suplantación de identidad.
 
-*Intentos de robo de cuentas (WhatsApp, correo, redes sociales).
+* Intentos de robo de cuentas (WhatsApp, correo, redes sociales).
 
-*Enlaces sospechosos enviados por terceros.
+* Enlaces sospechosos enviados por terceros.
 
-*Comunicaciones que generen duda o confusión sobre su autenticidad.
+* Comunicaciones que generen duda o confusión sobre su autenticidad.
 
 No es un framework técnico para análisis forense, sino un instrumento de evaluación periodística con fundamento en buenas prácticas internacionales.
 
