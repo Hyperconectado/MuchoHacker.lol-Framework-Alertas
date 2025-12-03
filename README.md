@@ -1,6 +1,5 @@
 
-# Project Title
-MuchoHacker.lol — Framework de Clasificación de Alertas Digitales
+# MuchoHacker.lol — Framework de Clasificación de Alertas Digitales
 Versión 1.0 · Documento público · Uso libre bajo licencia MIT
 
 
