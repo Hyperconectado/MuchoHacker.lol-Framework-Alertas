@@ -4,35 +4,31 @@ Versión 1.0 · Documento público · Uso libre bajo licencia MIT
 
 ## 1. Introducción
 
-Este documento define un marco de clasificación simple y estandarizado para evaluar alertas digitales dirigidas al público general. El propósito es facilitar la identificación del nivel de riesgo que representa una alerta digital, especialmente para personas sin conocimientos técnicos, y apoyar a medios de comunicación en la evaluación responsable de incidentes digitales.
+Este documento define un marco de clasificación simple y estandarizado para evaluar alertas digitales dirigidas al público general. El propósito es facilitar la identificación del nivel de riesgo que representa una alerta digital, especialmente para personas sin conocimientos técnicos, y apoyar a medios de comunicación en la evaluación responsable de incidentes digitales. Esta hecho luego de analizarse 101 incidentes digitales durantes los meses de Agosto, Septiembre, Octubre y Noviembre de 2025.
 
 El framework clasifica cada alerta en uno de tres niveles:
 
-Alto
+*Alto
 
-Medio
+*Medio
 
-Bajo
+*Bajo
 
-La evaluación puede ser realizada manualmente y asistida por herramientas de inteligencia artificial.
+La evaluación puede ser realizada manualmente y/o asistida por herramientas de inteligencia artificial.
 
 ##2. Alcance
 
-El framework aplica a:
+*El framework aplica a: Intentos de fraude digital (phishing, smishing, vishing).
 
-Intentos de fraude digital (phishing, smishing, vishing).
+*Filtraciones de datos.Mensajes engañosos o suplantación de identidad.
 
-Filtraciones de datos.
+*Intentos de robo de cuentas (WhatsApp, correo, redes sociales).
 
-Mensajes engañosos o suplantación de identidad.
+*Enlaces sospechosos enviados por terceros.
 
-Intentos de robo de cuentas (WhatsApp, correo, redes sociales).
+*Comunicaciones que generen duda o confusión sobre su autenticidad.
 
-Enlaces sospechosos enviados por terceros.
-
-Comunicaciones que generen duda o confusión sobre su autenticidad.
-
-No es un framework técnico para análisis forense, sino un instrumento de evaluación ciudadana con fundamento en buenas prácticas internacionales.
+No es un framework técnico para análisis forense, sino un instrumento de evaluación periodística con fundamento en buenas prácticas internacionales.
 
 ##3. Objetivo General
 
